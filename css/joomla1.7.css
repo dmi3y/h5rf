@@ -1,0 +1,37 @@
+.actions{
+float:right;
+}
+.actions li{
+float:left;
+margin-left:5px;
+}
+
+.article-info dt{
+display:none;
+}
+.content_rating,
+.article-info dd,
+.article-info dd a{
+font-size:12px;
+color:#bebebe;
+}
+.lang-active{
+}
+.lang-inline li{
+padding:0;
+}
+div.mod-languages li{
+margin:0;
+font-family:monospace;
+}
+.lang-active a{
+font-weight:bold;
+}
+.submitButton{
+border:none;
+color:#fff;
+background:steelblue;
+border-bottom:1px solid #000;
+font-size:19px;
+padding:3px 8px;
+}

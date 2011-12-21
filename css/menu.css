@@ -1,0 +1,16 @@
+.we-mainmenu{
+margin-bottom:30px;
+padding:20px 0;
+font-family:monospace;
+}
+.we-mainmenu .menu>li{
+display:inline;
+padding:0 15px;
+font-size:20px;
+}
+.we-mainmenu .current a{
+font-weight:bold;
+}
+nav a:hover{
+text-decoration:none;
+}

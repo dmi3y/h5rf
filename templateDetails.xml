@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<install
+	version="1.6"
+	type="template">
+	<name>h5rf</name>
+	<creationDate>2011</creationDate>
+	<author>WE First Studio</author>
+	<authorEmail>lapshukov@gmail.com</authorEmail>
+	<authorUrl>http://we1st.tk/</authorUrl>
+	<copyright>Copyright (C) - Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0</version>
+	<description>This is simple template with HTML5 and CSS3 ready.</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>ajax.php</filename>
+		<filename>index.html</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>component.php</filename>
+		<folder>html</folder>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+	</files>
+	<positions>
+		<position>topright</position>
+		<position>mainmenu</position>
+		<position>breadcrumbs</position>
+		<position>bottom</position>
+		<position>bottommenu</position>
+		<position>footer</position>
+	</positions>
+</install>
