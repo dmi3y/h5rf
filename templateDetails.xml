@@ -5,12 +5,12 @@
 	type="template">
 	<name>h5rf</name>
 	<creationDate>2011</creationDate>
-	<author>WE First Studio</author>
+	<author>Dmitry Lapshukov</author>
 	<authorEmail>lapshukov@gmail.com</authorEmail>
-	<authorUrl>http://we1st.tk/</authorUrl>
+	<authorUrl>http://h5rf.com/</authorUrl>
 	<copyright>Copyright (C) - Open Source Matters, Inc. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<version>1.0</version>
+	<version>1.1</version>
 	<description>This is simple template with HTML5 and CSS3 ready.</description>
 	<files>
 		<filename>index.php</filename>
