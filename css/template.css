@@ -9,11 +9,11 @@
 body{
 font-size:16px;
 font-family:arial,serif;
-background:#B0C4DE;
+background:#004E98;
 }
-header{
-}
-.h5rf-logo{
+.wrp{
+width:80%;
+margin:0 auto;
 }
 .h5rf-logo a:hover{
 text-decoration:none;
@@ -21,26 +21,29 @@ text-decoration:none;
 .h5rf-logo h1 a{
 color:#fff;
 font:105px fantasy;
-text-shadow:1px 3px 3px #000;
+text-shadow:1px 3px 3px #639DD3;
 }
 .h5rf-logo h1 a:hover{
-color:snow;
+color:#CBFF72;
 }
-a{
-color:#0772ED;
-text-decoration:none;
+.h5rf-topright{
+width:50%;
+margin:10px 0;
+color:#fff;
 }
-a:hover{
-text-decoration:underline;
+.h5rf-left{
+width:20%;
 }
-.wrp{
-width:80%;
-margin:0 auto;
-}
-.h5rf-footer{
-padding:50px 0;
+.h5rf-loffset{
+margin-left:20%;
 }
 .h5rf-content{
 background:#fff;
 padding:30px 0;
+}
+.h5rf-footer{
+padding:50px 0;
+}
+.h5rf-copy{
+text-shadow:1px 1px 1px #639DD3;
 }

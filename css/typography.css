@@ -24,6 +24,13 @@ color:#565656;
 h1,h2,h3{
 margin: 5px 0;
 }
+a{
+color:#0772ED;
+text-decoration:none;
+}
+a:hover{
+text-decoration:underline;
+}
 pre{
 font-family: 'Trebuchet MS', sans-serif;
 background: #eee;

@@ -1,14 +1,16 @@
-.we-mainmenu{
-margin-bottom:30px;
-padding:20px 0;
-font-family:monospace;
+.h5rf-mainmenu{
+background:#fff;
+padding:15px 0;
 }
-.we-mainmenu .menu>li{
-display:inline;
-padding:0 15px;
+.h5rf-mainmenu .menu>li{
+float:left;
 font-size:20px;
+margin-right:30px;
 }
-.we-mainmenu .current a{
+.h5rf-mainmenu>li:last-child{
+margin-right:0;
+}
+.h5rf-mainmenu .current a{
 font-weight:bold;
 }
 nav a:hover{

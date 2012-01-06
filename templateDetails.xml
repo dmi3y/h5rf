@@ -28,9 +28,10 @@
 	<positions>
 		<position>topright</position>
 		<position>mainmenu</position>
+		<position>top</position>
+		<position>left</position>
 		<position>breadcrumbs</position>
 		<position>bottom</position>
-		<position>bottommenu</position>
 		<position>footer</position>
 	</positions>
 </install>
