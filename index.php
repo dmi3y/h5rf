@@ -4,9 +4,8 @@ defined('_JEXEC') or die;
 //JHTML::_('behavior.mootools');
 $app = JFactory::getApplication();
 ?>
-<?php echo '<?'; ?>xml version="1.0" encoding="<?php echo $this->_charset ?>"?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>" >
+<html lang="<?php echo $this->language; ?>">
     <head>
         <jdoc:include type="head" />
         <base href="<?php echo JURI::base() ?>" />
@@ -97,7 +96,7 @@ $app = JFactory::getApplication();
                     <?php if ($this->countModules('footer')): ?>
                             <jdoc:include type="modules" name="footer" style="xhtml" />
                     <?php else: ?>
-                            <span class="h5rf-copy"><?php echo $app->getCfg('sitename'); ?>&nbsp;&copy;<?php echo date('Y'); ?></span>
+                            <span class="h5rf-copy"><?php echo $app->getCfg('sitename'); ?>&nbsp;&copy;&nbsp;<?php echo date('Y'); ?></span>
                     <?php endif; ?>
             </div>
         </footer>

@@ -15,20 +15,23 @@ background:#004E98;
 width:80%;
 margin:0 auto;
 }
-.h5rf-logo a:hover{
-text-decoration:none;
-}
-.h5rf-logo h1 a{
+.h5rf-logo a{
 color:#fff;
-font:105px fantasy;
+font:105px georgia;
 text-shadow:1px 3px 3px #639DD3;
 }
-.h5rf-logo h1 a:hover{
-color:#CBFF72;
+.h5rf-logo a:hover{
+color:#EAD009;
+text-decoration:none;
 }
 .h5rf-topright{
 width:50%;
 margin:10px 0;
+color:#fff;
+}
+.h5rf-topright h2,
+.h5rf-topright h3,
+.h5rf-topright h4{
 color:#fff;
 }
 .h5rf-left{

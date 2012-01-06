@@ -1,10 +1,20 @@
 This is zero configuration html5 ready template frame for Joomla! CMS.
 
-* it use jQuery, sorry MooTools
+--HOW TO USE--
+1. Download zip file - basically it is alreay done for use just install it like
+Joomla! template, but if you like make personalization follow next steps.
+2. Open templateDetails.xml with your favorite editor.
+3. Change whatever you want, at least tag <name>h5rf</name> which creates folder
+for template.
+
+--FEATURES--
+* it use jQuery
 * use html5 semantic everywhere it is possible
 * use CSS3 as priority
+* its simple and fun
 
-It supposed to be helpful for building templates for peoples who are ready to
+--DISCLAIMERS--
+This frame supposed to be helpful for building templates for peoples who are ready to
 hand code everything without rely on automatization which provided with template
 frameworks.
 Basically it is not supposed to be framework at all, everything is upon you. This

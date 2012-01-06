@@ -35,3 +35,23 @@ border-bottom:1px solid #000;
 font-size:19px;
 padding:3px 8px;
 }
+p.readmore a,
+a.readmore{
+padding:3px 10px;
+background:#EFEFEF;
+border:1px solid gray;
+-webkit-border-radius:20px;
+-moz-border-radius:20px;
+border-radius:20px;
+display:inline-block;
+margin-top:5px;
+}
+.pagenav{
+margin:10px 0;
+}
+.pagenav li{
+display:inline;
+}
+.pagenav li.pagenav-next{
+float:right;
+}
