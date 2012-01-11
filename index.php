@@ -3,12 +3,13 @@ defined('_JEXEC') or die;
 /* Force MooTools */
 //JHTML::_('behavior.mootools');
 $app = JFactory::getApplication();
+//fix for base tag
+$this->base = JURI::base();
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $this->language; ?>">
     <head>
         <jdoc:include type="head" />
-        <base href="<?php echo JURI::base() ?>" />
         <link rel="stylesheet" href="templates/<?php echo $this->template ?>/css/template.css" type="text/css" />
         <!--[if IE 7]>
                 <link rel="stylesheet" href="templates/<?php echo $this->template ?>/css/ie7.css" type="text/css" />
@@ -19,8 +20,8 @@ $app = JFactory::getApplication();
         <?php if($this->direction == 'rtl') : ?>
                 <link rel="stylesheet" href="templates/<?php echo $this->template ?>/css/template-rtl.css" type="text/css" />
         <?php endif; ?>
-        <link rel="stylesheet" href="<?php echo  JURI::base() ?>/templates/system/css/general.css" type="text/css" />
-        <link rel="stylesheet" href="<?php echo  JURI::base() ?>/templates/system/css/system.css" type="text/css" />
+        <link rel="stylesheet" href="templates/system/css/general.css" type="text/css" />
+        <link rel="stylesheet" href="templates/system/css/system.css" type="text/css" />
         <!-- Fun with modernizr library-->
         <!--<script type="text/javascript" src="http://www.modernizr.com/downloads/modernizr-2.0.6.js"></script>-->
         <!-- Love jQuery -->
@@ -56,7 +57,7 @@ $app = JFactory::getApplication();
                 <div class="clr"></div>
             </nav>
         <?php endif; ?>
-        <section class="h5rf-content">
+        <div class="h5rf-content">
             <div class="wrp">
                 <?php if ($this->countModules('top')): ?>
                     <div class="h5rf-top">
@@ -84,7 +85,7 @@ $app = JFactory::getApplication();
                     <div class="clr"></div>
                 <?php endif; ?>
             </div>
-        </section>
+        </div>
         <footer>
             <?php if ($this->countModules('breadcrumbs')): ?>
                     <div class="h5rf-breadcrumbs">
