@@ -41,9 +41,12 @@ $this->base = JURI::base();
                 </div>
             <?php endif; ?>
             <div class="h5rf-logo f-left">
+                <hgroup>
                     <h1>
                         <a class=" make-c3fun norm" href="<?php echo JURI::base() ?>" title="<?php echo $app->getCfg('sitename'); ?>">H5RF</a>
                     </h1>
+                    <h4>html5 ready frame</h4>
+                </hgroup>
             </div>
          <div class="clr"></div>
          </div>

@@ -15,19 +15,21 @@ $params = &$this->item->params;
 $canEdit	= $this->item->params->get('access-edit');
 ?>
 
-<article>
+<section>
 <?php if ($this->item->state == 0) : ?>
 <div class="system-unpublished">
 <?php endif; ?>
 <?php if ($params->get('show_title')) : ?>
-	<h2>
+    <header>
+	<h1>
 		<?php if ($params->get('link_titles') && $params->get('access-view')) : ?>
 			<a href="<?php echo JRoute::_(ContentHelperRoute::getArticleRoute($this->item->slug, $this->item->catid)); ?>">
 			<?php echo $this->escape($this->item->title); ?></a>
 		<?php else : ?>
 			<?php echo $this->escape($this->item->title); ?>
 		<?php endif; ?>
-	</h2>
+	</h1>
+    </header>
 <?php endif; ?>
 <?php if ($params->get('show_print_icon') || $params->get('show_email_icon') || $canEdit) : ?>
 	<ul class="actions">
@@ -160,5 +162,5 @@ $canEdit	= $this->item->params->get('access-edit');
 <?php endif; ?>
 
 <div class="item-separator"></div>
-</article>
+</section>
 <?php echo $this->item->event->afterDisplayContent; ?>

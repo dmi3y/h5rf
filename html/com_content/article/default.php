@@ -20,14 +20,16 @@ $user		= JFactory::getUser();
 <article>
 <div class="item-page<?php echo $this->pageclass_sfx?>">
 <?php if ($this->params->get('show_page_heading', 1)) : ?>
-	<h1>
-	<?php echo $this->escape($this->params->get('page_heading')); ?>
-	</h1>
+    <header>
+        <h1>
+            <?php echo $this->escape($this->params->get('page_heading')); ?>
+        </h1>
+    </header>
 <?php endif; ?>
 <?php if ($params->get('show_title')) : ?>
 	<h2>
 	<?php if ($params->get('link_titles') && !empty($this->item->readmore_link)) : ?>
-		<a href="<?php echo $this->item->readmore_link; ?>">
+		<a href="<?php echo $this->item->readmore_link; ?>" rel="bookmark">
 		<?php echo $this->escape($this->item->title); ?></a>
 	<?php else : ?>
 		<?php echo $this->escape($this->item->title); ?>
@@ -103,17 +105,23 @@ endif; ?>
 <?php endif; ?>
 <?php if ($params->get('show_create_date')) : ?>
 	<dd class="create">
-	<?php echo JText::sprintf('COM_CONTENT_CREATED_DATE_ON', JHtml::_('date',$this->item->created, JText::_('DATE_FORMAT_LC2'))); ?>
+            <time datetime="<?php echo JFactory::getDate($this->item->created)->toFormat('%Y-%m-%d') ?>">
+                <?php echo JText::sprintf('COM_CONTENT_CREATED_DATE_ON', JHtml::_('date',$this->item->created, JText::_('DATE_FORMAT_LC2'))); ?>
+            </time>
 	</dd>
 <?php endif; ?>
 <?php if ($params->get('show_modify_date')) : ?>
 	<dd class="modified">
-	<?php echo JText::sprintf('COM_CONTENT_LAST_UPDATED', JHtml::_('date',$this->item->modified, JText::_('DATE_FORMAT_LC2'))); ?>
+            <time datetime="<?php echo JFactory::getDate($this->item->modified)->toFormat('%Y-%m-%d') ?>">
+                <?php echo JText::sprintf('COM_CONTENT_LAST_UPDATED', JHtml::_('date',$this->item->modified, JText::_('DATE_FORMAT_LC2'))); ?>
+            </time>
 	</dd>
 <?php endif; ?>
 <?php if ($params->get('show_publish_date')) : ?>
 	<dd class="published">
-	<?php echo JText::sprintf('COM_CONTENT_PUBLISHED_DATE_ON', JHtml::_('date',$this->item->publish_up, JText::_('DATE_FORMAT_LC2'))); ?>
+            <time datetime="<?php echo JFactory::getDate($this->item->publish_up)->toFormat('%Y-%m-%d') ?>" pubdate="pubdate">
+                <?php echo JText::sprintf('COM_CONTENT_PUBLISHED_DATE_ON', JHtml::_('date',$this->item->publish_up, JText::_('DATE_FORMAT_LC2'))); ?>
+            </time>
 	</dd>
 <?php endif; ?>
 <?php if ($params->get('show_author') && !empty($this->item->author )) : ?>
