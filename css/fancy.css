@@ -32,3 +32,13 @@ transition-duration: 5s;
 -o-transition-duration: 10s;
 transition-duration: 10s;
 }
+.h5rf-logo{
+-webkit-transform: rotate(-5deg);
+-webkit-transform-origin: bottom left;
+-moz-transform: rotate(-5deg);
+-moz-transform-origin: bottom left;
+-o-transform: rotate(-5deg);
+-o-transform-origin: bottom left;
+transform: rotate(-5deg);
+transform-origin: bottom left;
+}
