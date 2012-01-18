@@ -31,9 +31,6 @@ text-decoration:none;
 a:hover{
 text-decoration:underline;
 }
-p{
-margin:10px 0
-}
 pre{
 font-family: 'Trebuchet MS', sans-serif;
 background: #eee;
@@ -49,10 +46,6 @@ margin:10px 0;
 pre.soft{
 white-space: normal;
 }
-p{
-margin-bottom:5px;
-}
-
 /*Dropcaps*/
 .dropcap:first-letter{
 font-size: 350%;

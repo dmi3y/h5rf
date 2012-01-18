@@ -20,11 +20,6 @@ jQuery(document).ready(function($){
 		$('form').submit(function(){
 			$('input.placeholder', $(this)).val('');
 		});
-	})();
-	//simple antispam protection
-	(function(){
-                $('.contact-skype').empty().html('<a href="skype:lapshukov_d?call"><img src="http://mystatus.skype.com/smallicon/lapshukov_d" style="border: none;" width="16" height="16" alt="My status" />lapshukov_d</a>');
-		$('.contact-email').empty().html('<a href="mai'+'lto:lap'+'shu'+'kov'+'@'+'gm'+'ail.'+'com">lap'+'shu'+'kov'+'@'+'gma'+'il.c'+'om</a>');
 	});
 	//request form load and to do
 	(function(){
@@ -57,5 +52,5 @@ jQuery(document).ready(function($){
                     $('#contactme').bind('transitionend webkitTransitionEnd oTransitionEnd', function(){$('#contactme').addClass('shadow')});
                 }
             });
-	})();
+	});
 });

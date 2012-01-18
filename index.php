@@ -96,7 +96,7 @@ $this->base = JURI::base();
                     </div>
                     <div class="clr"></div>
             <?php endif; ?>
-            <div class="h5rf-footer ta-center">
+            <div class="h5rf-footer wrp">
                     <?php if ($this->countModules('footer')): ?>
                             <jdoc:include type="modules" name="footer" style="xhtml" />
                     <?php else: ?>

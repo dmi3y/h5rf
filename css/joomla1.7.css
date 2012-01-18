@@ -4,10 +4,14 @@ float:right;
 .actions li{
 float:left;
 margin-left:5px;
+list-style:none;
 }
 
 .article-info dt{
 display:none;
+}
+.article-info dd{
+margin:0;
 }
 .content_rating,
 .article-info dd,
@@ -30,7 +34,7 @@ font-weight:bold;
 .submitButton{
 border:none;
 color:#fff;
-background:steelblue;
+background:#004E98;
 border-bottom:1px solid #000;
 font-size:19px;
 padding:3px 8px;
@@ -54,4 +58,49 @@ display:inline;
 }
 .pagenav li.pagenav-next{
 float:right;
+}
+.category-module{
+list-style:none;
+padding:0;
+}
+.category-module h4{
+margin:0;
+}
+.pagination{
+text-align:center;
+}
+.pagination ul{
+list-style:none;
+padding:0;
+}
+.pagination li{
+display:inline-block;
+margin:0 5px;
+}
+.pagination .counter{
+margin:0;
+}
+table.category{
+width:100%;
+margin:20px 0;
+}
+table.category th{
+padding:5px;
+border:1px solid #fff;
+background:silver;
+}
+table.category tr td{
+padding:5px;
+}
+table.category tr.cat-list-row0{
+background:#f3f3f3;
+}
+.cat-children ul{
+list-style:none;
+padding:0;
+}
+fieldset.filters{
+float: right;
+padding: 5px;
+margin: 10px 0;
 }
