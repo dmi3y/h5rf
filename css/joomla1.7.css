@@ -39,8 +39,10 @@ border-bottom:1px solid #000;
 font-size:19px;
 padding:3px 8px;
 }
+.button,
 p.readmore a,
 a.readmore{
+color:#000;
 padding:3px 10px;
 background:#EFEFEF;
 border:1px solid gray;
@@ -49,6 +51,9 @@ border:1px solid gray;
 border-radius:20px;
 display:inline-block;
 margin-top:5px;
+}
+a.readmore:hover{
+text-decoration:none;
 }
 .pagenav{
 margin:10px 0;
