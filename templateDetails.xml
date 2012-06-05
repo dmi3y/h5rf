@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
-<install
+<extension
 	version="2.5"
-	type="template">
+	type="template"
+        client="site">
 	<name>h5rf</name>
 	<creationDate>2011</creationDate>
 	<author>Dmitry Lapshukov</author>
@@ -33,5 +34,9 @@
 		<position>breadcrumbs</position>
 		<position>bottom</position>
 		<position>footer</position>
-	</positions>
-</install>
+	</positions>  
+        <languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_h5rf.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_h5rf.sys.ini</language>
+	</languages>
+</extension>
