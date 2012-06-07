@@ -35,6 +35,9 @@ $this->base = JURI::base();
     <body>
         <header>
         <div class="wrp">
+            <div class="search f-right">
+                <jdoc:include type="module" name="search" />
+            </div>
             <?php if ($this->countModules('topright')): ?>
                 <div class="h5rf-topright f-right">
                     <jdoc:include type="modules" name="topright" style="xhtml" />
