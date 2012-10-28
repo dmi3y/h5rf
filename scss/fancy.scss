@@ -1,0 +1,35 @@
+/*CSS3 fun around*/
+.make-c3fun{
+-webkit-transition-property:all;
+-moz-transition-property:all;
+-o-transition-property:all;
+transition-property:all;
+}
+.fast{
+-webkit-transition-duration: 1s;
+-moz-transition-duration: 1s;
+-o-transition-duration: 1s;
+transition-duration: 1s;
+}
+.norm{
+-webkit-transition-duration: 5s;
+-moz-transition-duration: 5s;
+-o-transition-duration: 5s;
+transition-duration: 5s;
+}
+.slow{
+-webkit-transition-duration: 10s;
+-moz-transition-duration: 10s;
+-o-transition-duration: 10s;
+transition-duration: 10s;
+}
+.h5rf-logo h1{
+-webkit-transform: rotate(-5deg);
+-webkit-transform-origin: bottom left;
+-moz-transform: rotate(-5deg);
+-moz-transform-origin: bottom left;
+-o-transform: rotate(-5deg);
+-o-transform-origin: bottom left;
+transform: rotate(-5deg);
+transform-origin: bottom left;
+}

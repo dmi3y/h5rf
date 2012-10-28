@@ -1,0 +1,57 @@
+//import 'reset';
+ @import 'normalize';
+ @import 'asset';
+ @import 'fancy';
+ @import 'typography';
+ @import 'joomla2.5';
+ @import 'menu';
+ @import 'custom';
+
+/*template itself*/
+ body {
+    font-size:16px;
+    font-family:arial, serif;
+    background:#004E98;
+}
+.wrp {
+    width:80%;
+    margin:0 auto;
+}
+.h5rf-logo h4 {
+    color:#fff;
+    margin:0;
+}
+.h5rf-logo a {
+    color:#fff;
+    font:105px georgia;
+    text-shadow:1px 3px 3px #639DD3;
+}
+.h5rf-logo a:hover {
+    color:#EAD009;
+    text-decoration:none;
+}
+.h5rf-topright {
+    width:50%;
+    margin:10px 0;
+    color:#fff;
+}
+.h5rf-topright h2, .h5rf-topright h3, .h5rf-topright h4 {
+    color:#fff;
+}
+.h5rf-left {
+    width:20%;
+}
+.h5rf-component {
+    overflow:hidden;
+}
+.h5rf-loffset {
+    margin-left:20%;
+}
+.h5rf-content {
+    background:#fff;
+    padding:5px 0;
+}
+.h5rf-footer {
+    padding:50px 0;
+    color:#fff;
+}
